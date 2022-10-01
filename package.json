@@ -1,0 +1,19 @@
+{
+  "name": "mc-auto-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "pkg index.js --t latest-win-x64 -o server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}
